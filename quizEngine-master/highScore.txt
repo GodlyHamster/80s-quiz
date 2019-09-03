@@ -1,0 +1,3 @@
+Hamster:810
+Hamster:900
+Nein:600
