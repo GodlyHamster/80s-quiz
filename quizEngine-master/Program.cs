@@ -20,10 +20,10 @@ namespace quizEngine
             "Van wie is het lied: 'Livin' on a prayer' ?", 
             "Wat is de Nr.1 hit van de jaren 80?",
             "Van wie het lied: 'Thriller' ?",
-            "Typ in getallen de juiste volgorde van wanneer welk lied uitkwam (van begin tot eind)",
+            "Type in getallen de juiste volgorde van wanneer welk lied uitkwam (van begin tot eind)",
             "Van Wie is het lied: 'Here I Go Again' ?",
             "In welk jaar kwam: 'Africa' uit?",
-            "Typ in getallen de juiste volgorde van wanneer welk lied uitkwam (van begin tot eind)",
+            "Type in getallen de juiste volgorde van wanneer welk lied uitkwam (van begin tot eind)",
             "Maak de Titel van het lied af: 'Addicted to ...'"};
 
             //correct answers: 2-3-2-3-1-132-1-2-321-2
@@ -248,7 +248,6 @@ namespace quizEngine
                     Console.BackgroundColor = ConsoleColor.DarkGreen;  
                     Console.WriteLine("CORRECT!");
                     Console.WriteLine("Score + " +result);
-                    Console.Beep(1200, 200);
                     Thread.Sleep(1000);
                     Console.Clear();
                     Console.BackgroundColor = ConsoleColor.Black;    
@@ -257,7 +256,6 @@ namespace quizEngine
                     Console.BackgroundColor = ConsoleColor.Red;                    
                     Console.WriteLine("!! WRONG !!");
                     LostPoints = LostPoints + QuestionScore;
-                    Console.Beep(900, 1000);
                     Thread.Sleep(1000);
                     Console.Clear();
                     Console.BackgroundColor = ConsoleColor.Black;                       
